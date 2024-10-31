@@ -1,4 +1,5 @@
 # INSTALL-DNS-SERVER-
+
 1.	Login ke debian dengan menggunakan user root dan setelah itu kita setting IP untuk server terlebih dahulu dengan mengetikkan perintah nano /etc/network/interfaces
 2.	Jika sudah, restart IP dengan perintah /etc/init.d/networking restart. Dan cek konfigurasi IP sudah berhasil atau belum dengan perintah ip a.
 3.	Jika berhasil, maka langkah selanjutnya masukkan DVD 2 dan install bind9, dengan perintah apt-get install bind9. Jika ada pertanyaan [y/n] klik Y kemudian enter
